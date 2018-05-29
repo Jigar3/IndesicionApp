@@ -1,0 +1,33 @@
+.add-option-error {
+    padding: 0 $m-size;
+    color: $off-white;
+    font-style: italic;
+    margin: $m-size 0 0 0;
+}
+
+.add-option {
+    display: flex;
+    padding: $m-size;
+    flex-direction: column;
+}
+
+.add-option__input {
+    flex-grow: 1;
+    background: $dark-blue;
+    border: none;
+    margin: 0 0 $s-size 0;
+    // margin-right: $s-size;
+    color: $off-white;
+    padding: $s-size;
+    border-bottom: 0.3rem solid darken($color: $dark-blue, $amount: 10%); 
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .add-option {
+        flex-direction: row;
+    }
+
+    .add-option__input {
+        margin: 0 $s-size 0 0;  
+    }
+}
