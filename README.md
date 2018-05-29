@@ -11,3 +11,5 @@ To run the Application locally, type
 yarn run webpack-dev-server
 ```
 
+![Indesicion App](Images/indesicionApp.png "Indesicion App")
+
